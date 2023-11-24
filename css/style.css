@@ -1,0 +1,151 @@
+@font-face {
+font-family: 'Tiempos-Text-Regular';
+src: url('tiempos-text-web-regular.eot');
+src: url('tiempos-text-web-regular.eot?#iefix') format('embedded-opentype'),
+url('tiempos-text-web-regular.woff2') format('woff2'),
+url('tiempos-text-web-regular.woff') format('woff');
+font-weight: 400;
+font-style: normal;
+font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Tiempos-Text-Regular-Italic';
+src: url('tiempos-text-web-regular-italic.eot');
+src: url('tiempos-text-web-regular-italic.eot?#iefix') format('embedded-opentype'),
+url('tiempos-text-web-regular-italic.woff2') format('woff2'),
+url('tiempos-text-web-regular-italic.woff') format('woff');
+font-weight: 400;
+font-style: italic;
+font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Tiempos-Text-Semibold';
+src: url('tiempos-text-web-semibold.eot');
+src: url('tiempos-text-web-semibold.eot?#iefix') format('embedded-opentype'),
+url('tiempos-text-web-semibold.woff2') format('woff2'),
+url('tiempos-text-web-semibold.woff') format('woff');
+font-weight: 600;
+font-style: normal;
+font-stretch: normal;
+}
+
+/*---------------------------------------------------------------------------*/
+
+@font-face {
+font-family: 'Graphik Web';
+src: url('Graphik-Bold-Web.woff2') format('woff2'),
+url('Graphik-Bold-Web.woff') format('woff');
+font-weight: 700;
+font-style: normal;
+font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Graphik Web';
+src: url('Graphik-Semibold-Web.woff2') format('woff2'),
+url('Graphik-Semibold-Web.woff') format('woff');
+font-weight: 600;
+font-style: normal;
+font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Graphik Web';
+src: url('Graphik-Regular-Web.woff2') format('woff2'),
+url('Graphik-Regular-Web.woff') format('woff');
+font-weight: 400;
+font-style: normal;
+font-stretch: normal;
+}
+
+/*---------------------------------------------------------------------------*/
+
+* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+body { margin: auto; font-size: 23px; /*color: #231F20;*/ color: #1D2D36; background-color: #FFFEFC; }
+
+.gray { color: #999; }
+.gray a { color: #999; }
+
+/* .history { margin: 5px 0 15px 26px; font-family: Eina01-Regular, sans-serif !important; font-weight: 400; line-height: 1.3em;} */
+
+h1 { font-family: 'Graphik Web', sans-serif; font-weight: 700; font-style: normal; font-size: 45px; }
+h3 { font-family: 'Graphik Web', sans-serif; font-weight: 700; font-style: normal; font-size: 37px; padding-top: 1em; padding-bottom: 0.7em; }
+h4 { font-family: 'Graphik Web', sans-serif; font-weight: 700; font-style: normal; font-size: 26px; padding-top: 1em; padding-bottom: 0.2em; }
+h5 { font-family: 'Graphik Web', sans-serif; font-weight: 700; font-style: normal; font-size: 20px}
+
+p { font-family: 'Tiempos-Text-Regular', serif; font-weight: 400; font-style: normal; line-height: 1.3em; }
+
+.sans { font-family: 'Graphik Web', sans-serif !important; font-weight: 400; font-size: 26px; line-height: 1.3em; }
+
+.btn-primary { font-family: 'Graphik Web', sans-serif !important; font-weight: 400; font-size: 24px; line-height: 1.1em; text-decoration: none; padding: 10px; color: #FFFFFF; background-color: #1D2D36; border: #1D2D36;  }
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary { color: #FFE02B; background-color: #1D2D36; border-color: #1D2D36; }
+
+.large { font-family: 'Graphik Web'; font-weight: 700; font-style: normal; font-size: 70px; width: 100%; }
+.logos img { margin-top: 10px; }
+.flag { height: 26px; }
+.imgsmaller img { width: 90%; max-width: 600px;}
+.bold { font-family: 'Graphik Web'; font-weight: 700; }
+.semibold { font-family: 'Graphik Web'; font-weight: 600; }
+.semiboldserif { font-family: 'Tiempos-Text-Semibold'; }
+
+ul { font-family: 'Tiempos-Text-Regular', serif; list-style: none; margin-left: 0; padding-left: 1em; text-indent: -1em; }
+
+.bluegrad { background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% ); }
+.bluegrad p {color: #FFFEFC;;}
+.bluegrad h3 {color: #FFFEFC;;}
+.bluegrad a { color: #FFFEFC;; text-decoration: underline; }
+.bluegrad a:hover { color: #FFFEFC;; text-decoration: underline #FFE02B; }
+
+a { /*color: #231F20;*/ color: #1D2D36; text-decoration: underline; }
+a:hover { /*color: #231F20;*/ color: #1D2D36; text-decoration: underline #FFE02B;}
+.menu a { margin-right: 20px; }
+
+.sn {width: 30px; height: 30px;}
+.snsm {width: 20px; height: 20px; margin: 0 5px; }
+.snst { margin: 20px 5px 20px 0px; }
+.snnd { margin: 20px 0px 20px 5px; }
+
+.cta { border: none; color: #FFFEFC; padding: 15px 30px; text-align: center; text-decoration: none; display: inline-block; margin-top: 30px; position: relative; }
+.button a:hover { color: #FFFEFC; text-decoration: underline; }
+
+#uncoverst { display: none; }
+
+/* mobile */
+
+.left { text-align: left; margin: 25px 0 0 10%; width: 80%; }
+.narrow { width: 80%; min-width: 240px; }
+.gradleft { text-align: left; padding: 20px 5% 50px 5%; width: 90%; margin: 0 0 0 5%; }
+.storyimg {padding: 0; width: 90%; margin: 30px 0 30px 5%; }
+.storyimg img { width: 100%; }
+.justify { text-align: left; }
+.cover { margin-bottom: 50px; }
+.coverfull img {width: 100%;}
+.coverfull {margin-bottom: 50px; margin-top: 50px;}
+.coverright img { width: 100%; margin-left: 0; margin-right: 0; }
+.coverleft img { width: 100%; margin-left: 0; margin-right: 0; }
+.bottom { margin-bottom: 75px; }
+.bottomless { margin-bottom: 35px; }
+.top { margin-top: 75px; }
+.topless { margin-top: 35px; }
+.logo img { width: 100px; height: 64px; }
+
+/* desktop */
+@media (min-width: 760px) {
+	.left { text-align: left; margin: 50px 0 0 27%; width: 60%; }
+	.narrow { width: 40%; min-width: 240px; }
+	.gradleft { text-align: left; padding: 50px 5% 50px 5%; width: 50%; margin: 0 17% 0 22%; }
+	.storyimg {padding: 0; width: 50%; margin: 40px 17% 30px 22%; }
+	.storyimg img { width: 100%; }
+	.justify { text-align: justify; }
+	.cover { margin-bottom: 50px; }
+	.coverright img { width: 78%; margin-left: 22%; }
+	.coverleft img { width: 78%; margin-right: 22%; }
+	.bottom { margin-bottom: 150px; }
+	.bottomless { margin-bottom: 35px; }
+	.top { margin-top: 150px; }
+	.topless { margin-top: 35px; }
+	.logo img { width: 150px; height: 96px; }
+}
